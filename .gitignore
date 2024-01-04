@@ -1,0 +1,8 @@
+venv/
+dump.rdb
+**/__pycache__
+.DS_Store
+reports/
+**/reports/*.html
+**/logs/nerve.log
+tests/
