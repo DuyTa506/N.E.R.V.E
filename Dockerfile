@@ -30,17 +30,17 @@ ADD templates $TARGET_FOLDER/templates
 ADD views $TARGET_FOLDER/views
 ADD views_api $TARGET_FOLDER/views_api
 
-COPY config.py $TARGET_FOLDER
-COPY main.py $TARGET_FOLDER
+# COPY config.py $TARGET_FOLDER
+# COPY main.py $TARGET_FOLDER
 COPY requirements.txt $TARGET_FOLDER
-COPY start.sh $TARGET_FOLDER
-COPY version.py $TARGET_FOLDER
+# COPY start.sh $TARGET_FOLDER
+# COPY version.py $TARGET_FOLDER
 WORKDIR $TARGET_FOLDER/
 
 RUN pip3 install --user -r requirements.txt
-RUN chmod 755 main.py
-RUN chmod 755 start.sh
-ENTRYPOINT ["/opt/nerve/start.sh"]
+# RUN chmod 755 main.py
+# RUN chmod 755 start.sh
+# ENTRYPOINT ["/opt/nerve/start.sh"]
 
-EXPOSE 8080/tcp
+# EXPOSE 8080/tcp
 
