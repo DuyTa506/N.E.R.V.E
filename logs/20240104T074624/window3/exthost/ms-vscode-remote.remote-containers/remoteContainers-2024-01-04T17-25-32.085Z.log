@@ -1,0 +1,16 @@
+[2024-01-04T18:12:08.413Z] Stop (60736 ms): Run in container: /bin/sh -c # Watch machine settings
+[2024-01-04T18:12:08.414Z] Start: Run in container: /bin/sh -c # Watch machine settings
+[2024-01-04T18:12:08.689Z] Stop (60840 ms): Run in container: /bin/sh -c # Watch installed extensions
+[2024-01-04T18:12:08.690Z] Start: Run in container: /bin/sh -c # Watch installed extensions
+[2024-01-04T18:13:09.181Z] Stop (60767 ms): Run in container: /bin/sh -c # Watch machine settings
+[2024-01-04T18:13:09.181Z] Start: Run in container: /bin/sh -c # Watch machine settings
+[2024-01-04T18:13:09.518Z] Stop (60828 ms): Run in container: /bin/sh -c # Watch installed extensions
+[2024-01-04T18:13:09.519Z] Start: Run in container: /bin/sh -c # Watch installed extensions
+[2024-01-04T18:14:09.924Z] Stop (60743 ms): Run in container: /bin/sh -c # Watch machine settings
+[2024-01-04T18:14:09.925Z] Start: Run in container: /bin/sh -c # Watch machine settings
+[2024-01-04T18:14:10.244Z] Stop (60725 ms): Run in container: /bin/sh -c # Watch installed extensions
+[2024-01-04T18:14:10.245Z] Start: Run in container: /bin/sh -c # Watch installed extensions
+[2024-01-04T18:15:10.625Z] Stop (60700 ms): Run in container: /bin/sh -c # Watch machine settings
+[2024-01-04T18:15:10.626Z] Start: Run in container: /bin/sh -c # Watch machine settings
+[2024-01-04T18:15:10.988Z] Stop (60743 ms): Run in container: /bin/sh -c # Watch installed extensions
+[2024-01-04T18:15:10.988Z] Start: Run in container: /bin/sh -c # Watch installed extensions

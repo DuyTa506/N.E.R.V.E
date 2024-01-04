@@ -77,7 +77,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -162,13 +163,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -306,6 +300,10 @@
                     {
                         "id": "workbench.action.closeFolder",
                         "label": "Close &&Folder"
+                    },
+                    {
+                        "id": "workbench.action.remote.close",
+                        "label": "Close Re&&mote Connection"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -515,8 +513,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -777,10 +774,6 @@
                     {
                         "id": "workbench.view.extensions",
                         "label": "E&&xtensions"
-                    },
-                    {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1139,7 +1132,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1738,8 +1732,9 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/duy/nerve",
-            "backupPath": "/home/duy/nerve/Backups/336341c5d58162f2565b18a7f70c3e4f",
+            "folder": "vscode-remote://attached-container%2B7b22636f6e7461696e65724e616d65223a222f637665323032335f7765626c6f6769635f31227d/u01",
+            "backupPath": "/home/duy/nerve/Backups/209192161f510ebc396606d101aeae45",
+            "remoteAuthority": "attached-container+7b22636f6e7461696e65724e616d65223a222f637665323032335f7765626c6f6769635f31227d",
             "uiState": {
                 "mode": 0,
                 "x": 285,
@@ -1749,17 +1744,6 @@
             }
         },
         "openedWindows": [
-            {
-                "folder": "file:///home/duy/nerve",
-                "backupPath": "/home/duy/nerve/Backups/336341c5d58162f2565b18a7f70c3e4f",
-                "uiState": {
-                    "mode": 0,
-                    "x": 285,
-                    "y": 103,
-                    "width": 1024,
-                    "height": 768
-                }
-            },
             {
                 "backupPath": "/home/duy/nerve/Backups/1704389038152",
                 "uiState": {
